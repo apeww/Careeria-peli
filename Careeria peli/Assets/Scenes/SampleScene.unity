@@ -317,6 +317,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!4 &670832232 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+  m_PrefabInstance: {fileID: 1932553696}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -478,6 +483,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: IntExt_BA_GlassFrameDoor_01
       objectReference: {fileID: 0}
+    - target: {fileID: 6299893764598717856, guid: eaaaafd5975a5d544a3d11507b3670ec, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6314420181378782804, guid: eaaaafd5975a5d544a3d11507b3670ec, type: 3}
+      propertyPath: open
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6314420181378782804, guid: eaaaafd5975a5d544a3d11507b3670ec, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 670832232}
+    - target: {fileID: 6317541771475920052, guid: eaaaafd5975a5d544a3d11507b3670ec, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 670832232}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eaaaafd5975a5d544a3d11507b3670ec, type: 3}
 --- !u!1001 &1085733470
@@ -547,6 +568,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: IntExt_BA_GlassFrameDoor_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6314420181378782804, guid: eaaaafd5975a5d544a3d11507b3670ec, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 670832232}
+    - target: {fileID: 6317541771475920052, guid: eaaaafd5975a5d544a3d11507b3670ec, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 670832232}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eaaaafd5975a5d544a3d11507b3670ec, type: 3}
 --- !u!1 &1221192869
